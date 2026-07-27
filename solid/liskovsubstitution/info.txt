@@ -1,0 +1,6 @@
+
+in LS principle, 
+ rule of this principle is the sub class which is extends parent class must be treated or implements parent 
+ class behavious
+
+ 

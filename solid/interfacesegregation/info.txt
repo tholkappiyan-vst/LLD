@@ -1,0 +1,13 @@
+
+here i want say the difference between LS (Liskov Substitution ) and  IS Intetface Segregation
+
+here in this example , we cant use LS principle...
+
+lets take an example suppose you have a Vehicle class which is contains methods like startengine and movevehicle
+
+then take another class Bicycle which is Extended by vehicle, but here startEngine method is not able to used in this class 
+
+it is contradiction of LS so, we create seperate inteface for thses two methods then the class will implements suitable inteface only 
+
+
+

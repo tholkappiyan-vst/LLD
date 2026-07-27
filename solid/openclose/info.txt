@@ -1,0 +1,9 @@
+
+
+instead of modifying code  when the feature is added to class in every time 
+create the seperate class for feature which is extends the base class (interface)
+
+
+create object of class which feature is you want to use
+
+

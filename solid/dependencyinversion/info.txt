@@ -1,0 +1,6 @@
+
+
+the class (high level module ) does not depends on another class (low level module)
+instead of that create a abstraction for low level module
+
+so high level module depends on abstraction and  low level module depends on abstraction
