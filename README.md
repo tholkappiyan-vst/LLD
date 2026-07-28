@@ -1,6 +1,8 @@
 # Low Level Design (LLD) Examples
 
-This repository contains Java implementations of the **S.O.L.I.D** design principles:
+This repository contains Java implementations of the **S.O.L.I.D** design principles and **Singleton** design pattern examples.
+
+## Principles Covered
 
 - **S**ingle Responsibility Principle (SRP)
 - **O**pen/Closed Principle (OCP)
@@ -8,7 +10,11 @@ This repository contains Java implementations of the **S.O.L.I.D** design princi
 - **I**nterface Segregation Principle (ISP)
 - **D**ependency Inversion Principle (DIP)
 
-Each principle is demonstrated with a clear, self-contained example in the `solid/` directory.
+## Design Patterns Covered
+
+- **Singleton** (with various implementations: Eager, Enum, Thread-safe, etc.)
+
+Each principle and pattern is demonstrated with a clear, self-contained example.
 
 ## Structure
 
@@ -45,6 +51,14 @@ solid/
     ├── EmailNotification.java
     ├── Main.java
     └── info.txt
+
+singleton/
+├── AuthendicatedUser.java
+├── AuthendicatedUser1.java
+├── Eager.java
+├── Enum.java
+├── Main.java
+└── singleton.txt
 ```
 
 ## How to Run
@@ -59,6 +73,12 @@ solid/
    ```bash
    javac solid/single/Main.java
    java solid/single/Main
+   ```
+
+3. To run Singleton examples:
+   ```bash
+   javac singleton/Main.java
+   java singleton.Main
    ```
 
 Repeat for other directories as desired.
