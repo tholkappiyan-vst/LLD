@@ -1,0 +1,19 @@
+
+singleton is a simple pattern which is allow to create a single object and use it in many place 
+
+to achieve singleton object 
+    -> use private constructor and public get method for creation with validation 
+        ____*** but it is failed in multithreading when multiple threads execute the method at same time ****_________
+
+    -> synchronisation at the time of calling get method for object creation 
+    ________*** suitalbe for multithreading ***__________
+
+    -> create object within class itself (too simple) 
+    _______*** wastage of memory if we wont use the object***********____________
+
+    -> create Enum 
+    ______ *** object of Enum class is created by jvm when method is called ******__________
+
+
+  -> but we have problem in serialization and deserialization of object 
+     @@can you guess? if means , command in repo
