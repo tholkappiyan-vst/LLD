@@ -1,0 +1,29 @@
+
+hello this is vst,
+
+instead of creating the new object with similar behaviour from the scratch ,
+ clone the existing the model and add new feature on it 
+
+ i give the example statement for better understanding
+
+-----> Document and Content Management Systems <--------
+Systems that manage, store, and reuse digital documents and templates efficiently.
+Existing document templates can be cloned to create new documents quickly.
+Users can modify layout, fonts, or content without recreating the template from scratch.
+
+----> shallow copy<----
+A shallow copy creates a new object, but copies the references of nested objects instead of creating new nested objects. 
+As a result, the original and the copied object share the same referenced objects.
+
+example
+int ,char -> create new object
+list,Map-> get reference
+
+----> deep copy<----
+
+A deep copy creates a new object and also creates new copies of all nested objects.
+ As a result, the original and the copied object are completely independent.
+
+
+ int ,char,list -> create new object
+
