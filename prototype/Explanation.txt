@@ -1,8 +1,9 @@
 
 hello this is vst,
 
-instead of creating the new object with similar behaviour from the scratch ,
- clone the existing the model and add new feature on it 
+ prototype pattern allow us, instead of creating the new object with similar behaviour from the scratch ,
+ clone the existing the model 
+
 
  i give the example statement for better understanding
 
