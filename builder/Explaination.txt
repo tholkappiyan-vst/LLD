@@ -1,0 +1,6 @@
+The Builder Pattern is used when an object has many optional parameters or when creating the object involves multiple steps.
+ It makes object creation readable, flexible, and less error-prone.
+
+
+ The builder class will be defined as a static nested class within HttpRequest,
+  and the constructor will accept an instance of that builder to initialize the fields.
