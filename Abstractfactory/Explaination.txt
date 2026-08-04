@@ -1,0 +1,10 @@
+The Abstract Factory design pattern provides an interface for creating families of related or 
+dependent objects without specifying their concrete classes. 
+It encapsulates object creation, allowing the client to work only with abstractions 
+rather than concrete implementations.
+
+
+When to Use:
+When the application needs to create families of related objects that should be used together.
+When the client should be independent of the concrete classes it creates.
+When you need to support multiple product families.
