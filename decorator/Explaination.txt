@@ -1,0 +1,7 @@
+The Decorator pattern is a structural pattern that attaches additional responsibilities to an object dynamically. Instead of extending a class through inheritance, it wraps the original object inside another object that adds the new behavior.
+
+Two characteristics define the pattern:
+
+Same interface preservation: Every decorator implements the same interface as the object it wraps. The client cannot tell whether it is talking to a plain object or a decorated one.
+Dynamic composition: Decorators can be stacked at runtime in any combination and any order. You choose what to add and when, not at compile time.
+This creates a layered effect, where decorators can be stacked to apply multiple enhancements without creating a complex inheritance tree.
